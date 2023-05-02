@@ -1,0 +1,33 @@
+.login_section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_section .inner_card{
+    min-height: 60vh;
+    height: 100%;
+    background-color: #ffffff81;
+    width: 80%;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:768px) {
+    .login_section .inner_card .logo{
+        display: none;
+    }
+}
+
+
+.login_section .inner_card .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 10px !important;
+}

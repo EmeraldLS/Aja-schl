@@ -1,0 +1,11 @@
+@media (max-width:767px) {
+    .about-us .bg-image img{
+        width: 100%;
+        object-fit: cover !important;
+    }
+}
+.carousel-item img{
+    max-height: 100vh;
+    object-fit: cover;
+    height: auto;
+}
