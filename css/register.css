@@ -1,0 +1,28 @@
+.hero_section{
+    height: 50vh;
+    width: 100%;
+}
+.hero_section .content{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-top: 40px;
+}
+.hero_section .content p>a{
+    color: white;
+    transition: 0.4s all ease;
+}
+.hero_section .content p>a:hover{
+    color: blue;
+}
+
+@media (max-width:382px) {
+    .hero_section .content h1 {
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
