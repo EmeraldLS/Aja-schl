@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    padding-top: 40px;
 }
 .hero_section .content p>a{
     color: white;
@@ -17,3 +18,4 @@
 .hero_section .content p>a:hover{
     color: blue;
 }
+
