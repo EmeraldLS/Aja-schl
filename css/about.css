@@ -39,3 +39,37 @@
         text-align: center;
     }
 }
+.hero_section{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.hero_section .overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(46, 29, 30, 0.317);;
+    
+}
+
+.hero_section img{
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero_section .text{
+    position: absolute;
+    transform: translate(0%, -50%);
+    /* left: 0%; */
+    top: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+}

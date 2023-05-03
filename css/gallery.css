@@ -1,6 +1,9 @@
 .hero_section{
     height: 50vh;
     width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 .hero_section .content{
     color: white;
@@ -9,11 +12,33 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    position: relative;
 }
+
+.hero_section .overlay{
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: inset 1px 1px 15px rgba(255,255,255,0.3);
+}
+
 .hero_section .content p>a{
     color: white;
     transition: 0.4s all ease;
 }
 .hero_section .content p>a:hover{
     color: blue;
+}
+
+.hero_section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 100%;
+    object-fit:cover;
+    z-index: -1;
 }

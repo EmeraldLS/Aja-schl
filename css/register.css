@@ -1,8 +1,33 @@
 .hero_section{
     height: 50vh;
     width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
 }
+
+.hero_section img{
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.hero_section .overlay{
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000088;
+    z-index: 1;
+    box-shadow: inset 1px 1px 15px #28a745;
+}
+
 .hero_section .content{
+    position: relative;
     color: white;
     display: flex;
     align-items: center;
@@ -10,7 +35,9 @@
     justify-content: center;
     height: 100%;
     padding-top: 40px;
+    z-index: 2;
 }
+
 .hero_section .content p>a{
     color: white;
     transition: 0.4s all ease;
